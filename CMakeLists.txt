@@ -13,7 +13,7 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
 # add_executable(app ${SRC_MAIN})
 # add_library(calc STATIC ${SRC_MAIN})
-# add_library(calc SHARED ${SRC_MAIN})
+add_library(calc SHARED ${SRC_MAIN})
 
 # target_link_libraries(app pthread calc)
 # message(STATUS "source path: ${PROJECT_SOURCE_DIR}")
